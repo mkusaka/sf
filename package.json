@@ -1,0 +1,30 @@
+{
+  "name": "sf",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "sf": "./src/cli.ts"
+  },
+  "scripts": {
+    "dev": "node src/cli.ts",
+    "start": "node src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@linear/sdk": "^86.0.0",
+    "chokidar": "^4.0.3",
+    "liquidjs": "^10.21.1",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
