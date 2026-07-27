@@ -16,7 +16,7 @@
   "dependencies": {
     "@linear/sdk": "^86.0.0",
     "chokidar": "^4.0.3",
-    "liquidjs": "^10.21.1",
+    "liquidjs": "^10.27.1",
     "yaml": "^2.8.2"
   },
   "devDependencies": {
